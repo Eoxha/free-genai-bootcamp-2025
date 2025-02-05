@@ -1,0 +1,36 @@
+@startuml
+top to bottom direction
+left to right direction
+package website  as w{
+  collections  Activities as a
+  collections  Assigments as b
+} 
+actor Student as s
+actor Teacher as t
+
+
+rectangle  "Data Manage" as d{
+    database  DB as db
+    entity "Prompt cache" as c
+  } 
+  rectangle  genai as ai {
+    entity context  as ctx
+    entity "input\nrailguard" as i
+    entity "output\nrailguard" as o
+    rectangle  LLM 
+  }
+note right of  db  :current \nmaterial
+w <-> d
+s --> a :do
+s --> b :do
+t ..> a :gives
+t ..> b :gives
+
+note left of c :persist\ngen. content
+c -> db
+c --> i
+c <- o
+i --> LLM
+ctx --> LLM
+LLM -> o
+@enduml
