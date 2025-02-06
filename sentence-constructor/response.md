@@ -1,50 +1,50 @@
 ## Response
-Great! Let’s break down this sentence step by step. Here's how we can approach it:
+Great! Let’s break down the two sentences: "Bears are at the door" and "Did you leave the garbage out?"
 
-Sentence Breakdown
-"Bears are at the door"
-"Did your leave the garbage out?"
+I’ll guide you through the transcription and analysis, while sticking to the rules.
 
-### Vocabulary Table
+### Sentence 1: "Bears are at the door"
+Step 1: Vocabulary Table
 
-| Japanese | Word Romaji | English |
-| :----- | :------- | :------ |
-| 熊	| kuma |	bear
-| は	| wa |	(topic particle)
-| ドア	| doa |	door
-| に	| ni |	at (location)
-| いる	| iru |	to be (exist, for living things)
-| ごみ	| gomi |	garbage
-| を	| wo |	(object particle)
-| 出す	| dasu |	to put out
-| か	| ka |	(question particle)
+|Kanji/Hiragana | Romaji | English |
+| :----- | :----- | :----- | 
+| 熊 | kuma | bear |
+| 扉 | tobira | door |
+| いる | iru | to be (used for living things) |
 
-### Sentence Structure
-For "Bears are at the door", the structure is: [Subject] は [Location] に [Verb (iru)]
+Step 2: Conceptual Structure
+This sentence is structured like:
 
-Example: 熊はドアにいる (Kuma wa doa ni iru)
+Subject (noun) + Location (noun) + Verb (existence)
+So, for this sentence:
 
-熊 (Kuma) = Bears
-ドア (Doa) = door
-いる (Iru) = to be (for living things)
+熊 (bears) + 扉 (door) + いる (to be, for living things)
+A more literal structure would be:
 
-For "Did your leave the garbage out?", the structure is: [Subject] は [Object] を [Verb (dasu)] か
+熊は (Bears are) + 扉に (at the door) + いる (exist).
+The verb いる is used here because we are talking about living things (the bears). The verb いる shows the existence of the bears at the door.
 
-Example: ごみは出すか (Gomi wa dasu ka)
+### Sentence 2: "Did you leave the garbage out?"
 
-ごみ (Gomi) = garbage
-出す (Dasu) = to put out
-か (Ka) = question marker
+Step 1: Vocabulary Table
 
-### Clues to Solve
+| Kanji/Hiragana | Romaji | English
+| :----- | :----- | :----- |
+| あなた | anata | you (pronoun) |
+| ゴミ | gomi | garbage |
+| 出す | dasu | to put out, to take out (verb)|
 
-"Bears are at the door": Focus on the location. Think about how we express the state of something being "at" a location using に.
+Step 2: Conceptual Structure
+This sentence follows the structure:
 
-"Did your leave the garbage out?": Pay attention to the question format here. It's asking about an action in the past, so think about how to form a past tense question. The verb 出す (dasu) might need to be in a form that asks if something was done.
+Subject (pronoun) + Object (noun) + Verb (action) + Question
+For this question:
 
-### Next Steps
+あなた (you) + ゴミ (garbage) + 出す (to put out) + (question)
+A basic structure would be:
 
-Try putting these words and structures together! Let me know what you come up with or if you need more hints.
+あなたは (You) + ゴミを (garbage) + 出す (put out) + か (question marker)
+This question is asking if the garbage was put out, so the verb 出す is used in the dictionary form (as we're asking a question). The か at the end makes it a question.
 
 ## Issues
 - Japanese vocabulary is in Kanji only.
