@@ -1,0 +1,1 @@
+I was going to work with japanese as it's was proposed but my japanese level is of a 3yo if best. Having spanish as my mother language, it would be easier to identify error or gramatical mistekes, so that's why on this commit I update the prompt.
