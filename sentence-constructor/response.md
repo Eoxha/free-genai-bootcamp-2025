@@ -1,52 +1,25 @@
 ## Response
-Great! Let’s break down the two sentences: "Bears are at the door" and "Did you leave the garbage out?"
+Alright! Let's break down the sentence while following the structure and rules.
 
-I’ll guide you through the transcription and analysis, while sticking to the rules.
+### Vocabulary Table:
 
-### Sentence 1: "Bears are at the door"
-Step 1: Vocabulary Table
+| Japanese | Hiragana | Romaji | English |
+| :----- | :----- | :----- | :----- |
+| 熊 | くま | kuma | bear |
+| 扉 | とびら | tobira | door |
+| 出る | でる | deru | to leave / to go out |
+| ゴミ | ごみ | gomi | garbage |
+| 外 | そと | soto | outside |
 
-|Kanji/Hiragana | Romaji | English |
-| :----- | :----- | :----- | 
-| 熊 | kuma | bear |
-| 扉 | tobira | door |
-| いる | iru | to be (used for living things) |
+### Conceptual Structure:
 
-Step 2: Conceptual Structure
-This sentence is structured like:
+- Subject: 熊 (kuma) - "Bears"
+- Location: 扉 (tobira) - "door"
+- Verb: 出る (deru) - "to leave"
+- Object: ゴミ (gomi) - "garbage"
+- Location: 外 (soto) - "outside"
 
-Subject (noun) + Location (noun) + Verb (existence)
-So, for this sentence:
-
-熊 (bears) + 扉 (door) + いる (to be, for living things)
-A more literal structure would be:
-
-熊は (Bears are) + 扉に (at the door) + いる (exist).
-The verb いる is used here because we are talking about living things (the bears). The verb いる shows the existence of the bears at the door.
-
-### Sentence 2: "Did you leave the garbage out?"
-
-Step 1: Vocabulary Table
-
-| Kanji/Hiragana | Romaji | English
-| :----- | :----- | :----- |
-| あなた | anata | you (pronoun) |
-| ゴミ | gomi | garbage |
-| 出す | dasu | to put out, to take out (verb)|
-
-Step 2: Conceptual Structure
-This sentence follows the structure:
-
-Subject (pronoun) + Object (noun) + Verb (action) + Question
-For this question:
-
-あなた (you) + ゴミ (garbage) + 出す (to put out) + (question)
-A basic structure would be:
-
-あなたは (You) + ゴミを (garbage) + 出す (put out) + か (question marker)
-This question is asking if the garbage was put out, so the verb 出す is used in the dictionary form (as we're asking a question). The か at the end makes it a question.
+Now, think about how these parts can come together based on the structure! Can you try creating the sentence using the vocabulary and structure provided?
 
 ## Issues
-- Japanese vocabulary is in Kanji only.
-- It provide particles 
-- It provide the answer.
+- would be better if it split the input in sentences.
