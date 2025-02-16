@@ -1,0 +1,60 @@
+@startuml
+
+' hide the spot
+' hide circle
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "Words" as w{
+  *id : int <<generated>>
+  *es : string
+  *en : string
+  *gender : string (M,F,N)
+  *context : json (blob?)
+  description :  stores  individual words
+}
+
+entity "Groups" as g{
+  *id : int <<generated>>
+  *name : string
+  *count : int
+  description :  collection of words
+}
+
+entity "words_grp" as wg{
+  *word_id : int <<FK>>
+  *group_id : int <<FK>>
+  description :  map table on words and groups
+}
+
+entity "study_act" as  sa {
+  *id : int <<generated>>
+  *name : string
+  *url : string
+  description :  diferent types of study activities
+}
+
+entity "study_session" as ss {
+  *id :  <<generated>>
+  *group_id : int <<FK>>
+  *activity_id : int <<FK>>
+  *created_at : timestamp
+  description: Records individual study sessions
+}
+
+entity "word_review" as wr {
+  *id : int <<generated>>
+  *word_id : int <<FK>>
+  *session_id : int <<FK>>
+  *correct : boolean
+  *created_at : timestamp
+  descritiption : Tracks individual word reviews within study sessions
+}
+
+g  ||--|{ wg 
+w  ||--|{ wg
+w  ||--|{ wr
+sa ||--|{ ss
+g  ||--|{ ss
+wr }|--|| ss
+@enduml
